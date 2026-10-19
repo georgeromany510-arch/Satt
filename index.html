@@ -56,7 +56,7 @@ label.row{grid-template-columns:auto 1fr auto;cursor:pointer}
 <div class="app"><aside id="aside"></aside><main id="main"></main></div>
 <script>
 // Temporary: paste a free Gemini key here, or in the sidebar box. Later move it to .env (see notes).
-const ENV_KEY = "", MODEL = "gemini-2.5-flash";
+const ENV_KEY = "", MODEL = "gemini-3.8-flash";
 pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
 const $ = s => document.querySelector(s), main = $("#main");
 const db = JSON.parse(localStorage.satdb || '{"pdfs":[],"rev":[]}');
